@@ -43,10 +43,13 @@
 
       img {
         border-radius: 10px;
+        cursor: pointer;
 
         @media @mobile {
           width: 100%;
         }
+
+
       }
     }
   }
@@ -106,7 +109,13 @@
         margin: 0 auto 30px;
       }
       
-      .btn {
+      .btn1  {
+        .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
+      }
+      .btn2  {
+        .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
+      }
+      .btn3  {
         .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
       }
     }
